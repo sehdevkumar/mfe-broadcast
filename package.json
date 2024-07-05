@@ -1,0 +1,21 @@
+{
+  "name": "mfe-broadcast",
+  "version": "1.0.0",
+  "description": "A TypeScript library for managing Broadcast Channels",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "broadcast",
+    "library"
+  ],
+  "author": "sehdev kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
